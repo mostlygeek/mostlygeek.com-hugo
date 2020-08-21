@@ -1,0 +1,32 @@
+baseURL = "https://mostlygeek.com"
+languageCode = "en-us"
+title = "mostlygeek"
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  blog = "/:filename/"
+
+# See https://feathericons.com/
+# The value of pre is the icon name
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Articles"
+    url = "/article/"
+    weight = 2
+# uncomment to create a tags page
+#  [[menu.main]]
+#    name = "Tags"
+#    url = "/tags/"
+#    weight = 3
+
+[params]
+  containerMaxWidth = "700px"
+  dateFormat = "Jan 2, 2006"
+  # why not
+  wootText = "Woot!"
