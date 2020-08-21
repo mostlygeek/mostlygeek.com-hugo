@@ -1,9 +1,12 @@
 {{ define "main" }}
 
+<h1>{{ .Title }}</h1>
+
 {{ .Content }}
 
-<h2>Articles</h2>
-{{ with .Site.GetPage "/article"}}
+<hr>
+
+<p><strong>Articles may not match my current worldviews.</strong></p>
 <ul>
 {{ range .Pages.ByPublishDate.Reverse }}
 <li>
@@ -13,5 +16,4 @@
 {{ end }}
 </ul>
 
-{{ end }}
 {{ end }}

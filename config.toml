@@ -12,13 +12,17 @@ title = "mostlygeek"
 # The value of pre is the icon name
 [menu]
   [[menu.main]]
-    name = "Home"
+    name = "home"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Articles"
-    url = "/article/"
+    name = "benson"
+    url = "/pages/about/"
     weight = 2
+  [[menu.main]]
+    name = "articles"
+    url = "/article/"
+    weight = 3
 # uncomment to create a tags page
 #  [[menu.main]]
 #    name = "Tags"
@@ -26,7 +30,4 @@ title = "mostlygeek"
 #    weight = 3
 
 [params]
-  containerMaxWidth = "700px"
   dateFormat = "Jan 2, 2006"
-  # why not
-  wootText = "Woot!"
