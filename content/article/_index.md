@@ -2,6 +2,4 @@
 title: Articles
 ---
 
-Ahead are articles of advice, perspectives and opinions.  I hope my views give a different perspective on the things **you** believe.  I share them to help build understanding.  
-
-If you want to share your perspective write it up and [send it to me](/pages/about).  I'll read it. 
+Below are articles of my perspectives.  I hope for two things.  The first is that this gives you another perspective to consider.  The second is to have a dialog.  For you to share with me your thoughts so I can see the world from another perspective. 

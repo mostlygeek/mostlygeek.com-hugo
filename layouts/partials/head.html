@@ -5,8 +5,10 @@
   {{ $title := print .Title " | " .Site.Title }}
   <title>{{ $title }}</title>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hack@0.8.1/dist/hack.css"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hack@0.8.1/dist/dark-grey.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.1/hack.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.1/dark.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.1/solarized-dark.css"/>
+  {{ partial "style.html"}}
 
   {{ hugo.Generator }}
 </head>

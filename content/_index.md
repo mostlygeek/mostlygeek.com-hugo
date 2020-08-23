@@ -1,7 +1,7 @@
 ---
-title: "mostlygeek.com - funny line here."
+title: "mostlygeek.com - Benson Wong"
 ---
 
-# Content
+# mostlygeek.com
 
-From _index.md
+
